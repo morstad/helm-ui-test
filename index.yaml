@@ -1,14 +1,16 @@
 apiVersion: v1
 entries:
-  nmh-test:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2021-05-02T13:45:34.82858-05:00"
-    description: A Helm chart for Kubernetes
-    digest: a960cb0a2dd9c5913e32d6cd52657da41d8c895eeb4767451652c1231fc7da3f
-    name: nmh-test
-    type: application
-    urls:
-    - https://raw.githubusercontent.com/morstad/helm-ui-test/master/nmh-test-0.1.0.tgz
-    version: 0.1.0
-generated: "2021-05-02T13:45:34.826881-05:00"
+  ibm-operator-catalog-enablement:
+  - annotations:
+      charts.openshift.io/name: IBM Operator Catalog
+    apiVersion: v2
+    appVersion: 1.1.0
+    created: "2022-12-13T17:30:23.123344-06:00"
+    description: 'IBM Operator Catalog enablement deploys custom CatalogSources and
+      ImageContentSourcePolicy  resources to enable consistent Catalog experience
+      to deploy and maintain IBM products.  The operators are publically available,
+      but products they install may require purchase and entitlement keys.   Documentation
+      For additional details regarding installation see https://ibm.biz/operator-catalog-readme  License
+      By installing this catalog you accept the license terms https://www.apache.org/licenses/LICENSE-2.0 '
+    digest: e13c8fd83225fa555c034d02c3f1397528ea84e2e8cd13c8fbe744eef77f30ea
+    home: http://ibm.biz/oprcatalog
